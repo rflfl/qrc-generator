@@ -1,19 +1,19 @@
 import LogoIcon from "../assets/qrc-generator-logo.svg"
 export const Footer = () => {
     return (
-        <footer className="bg-white dark:bg-[#50514F]">
+        <footer className="bg-[#50514F]">
             <div className="container px-6 py-5 mx-auto">
                 <div className="flex items-center justify-between">
-                    <a href="#" className="dark:text-gray-300">
-                        <img className="w-auto h-12 dark:text-gray-300" src={LogoIcon} alt="QR Generator" />
+                    <a href="#" className="text-gray-300">
+                        <img className="w-auto h-12 text-gray-300" src={LogoIcon} alt="QR Generator" />
                     </a>
 
-                    <div className="dark:text-gray-300">
+                    <div className="text-gray-300">
                         <p>QR Generator | 2024</p>
                     </div>
 
                     <div className="flex -mx-2">
-                        <a href="https://github.com/rflfl/qrc-generator" target="_blank" className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Github">
+                        <a href="https://github.com/rflfl/qrc-generator" target="_blank" className="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-400" aria-label="Github">
                             <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path

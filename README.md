@@ -8,3 +8,5 @@ Após clonar o repositório rode `npm install`, e para rodar o projeto `npm run 
 ## Dependências
 - qrcode.react
 - tailwindcss
+
+Hospedado no Github Pages.[QRC Generator](https://rflfl.github.io/qrc-generator/)
